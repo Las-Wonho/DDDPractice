@@ -14,3 +14,12 @@ type expenditureInformation struct {
 func (factory expenditureFactory) createExpenditure() expenditure {
 	return expenditure{}
 }
+
+const (
+	lending int = 1 + iota
+	meal
+	snack
+	transportation
+	subscription
+	lisence
+)
