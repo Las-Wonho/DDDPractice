@@ -17,6 +17,9 @@ type expenditureInformation struct {
 type expenditureFactory struct{}
 
 func (factory expenditureFactory) createExpenditure(spendType int) expenditure {
+	if spendType < lending || spendType > otherThing {
+		spendType = otherThing
+	}
 	info := expenditureInformation{date: time.ANSIC, spendType: spendType}
 	return expenditure{info: info}
 }
