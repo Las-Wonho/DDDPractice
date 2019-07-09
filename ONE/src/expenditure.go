@@ -8,8 +8,10 @@ type expenditure struct {
 }
 
 type expenditureInformation struct {
-	date        string
-	spendType   int
+	date      string
+	spendType int
+	reason    string
+	who       string
 }
 
 type expenditureFactory struct{}
