@@ -1,3 +1,6 @@
 package main
 
-type transaction struct{}
+type transaction struct {
+	moneyChange  int
+	targetWallet wallet
+}
