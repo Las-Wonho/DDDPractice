@@ -20,6 +20,9 @@ func (factory expenditureFactory) createExpenditure(spendType int, spendedMoney 
 	if spendType < lending || spendType > otherThing {
 		spendType = otherThing
 	}
+	if spendedMoney < 0 {
+		spendedMoney := -spendedMoney
+	}
 	info := expenditureInformation{date: time.ANSIC, spendType: spendType}
 	ts := transaction{moneyChange: spendType}
 	return expenditure{info: info, transaction: ts}
