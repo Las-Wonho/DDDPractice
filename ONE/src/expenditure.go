@@ -6,3 +6,6 @@ type expenditure struct {
 }
 
 type expenditureInformation struct{}
+
+type expenditureFactory struct {
+}
