@@ -5,9 +5,10 @@ type expenditure struct {
 	info        expenditureInformation
 }
 
-type expenditureInformation struct{}
-
-type expenditureFactory struct {
+type expenditureInformation struct {
+	date        string
+	transaction transaction
+	spendType   int
 }
 
 func (factory expenditureFactory) createExpenditure() expenditure {
