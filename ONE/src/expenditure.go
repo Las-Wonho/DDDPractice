@@ -16,7 +16,7 @@ type expenditureInformation struct {
 
 type expenditureFactory struct{}
 
-func (factory expenditureFactory) createExpenditure(spendType int) expenditure {
+func (factory expenditureFactory) createExpenditure(spendType int, spendedMoney int) expenditure {
 	if spendType < lending || spendType > otherThing {
 		spendType = otherThing
 	}
