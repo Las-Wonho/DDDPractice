@@ -9,7 +9,6 @@ type expenditure struct {
 
 type expenditureInformation struct {
 	date        string
-	transaction transaction
 	spendType   int
 }
 
