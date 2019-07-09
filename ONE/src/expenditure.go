@@ -4,3 +4,5 @@ type expenditure struct {
 	transaction transaction
 	info        expenditureInformation
 }
+
+type expenditureInformation struct{}
