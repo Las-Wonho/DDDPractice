@@ -28,4 +28,5 @@ const (
 	transportation
 	subscription
 	lisence
+	otherThing
 )
