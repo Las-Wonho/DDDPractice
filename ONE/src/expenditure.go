@@ -21,7 +21,8 @@ func (factory expenditureFactory) createExpenditure(spendType int, spendedMoney 
 		spendType = otherThing
 	}
 	info := expenditureInformation{date: time.ANSIC, spendType: spendType}
-	return expenditure{info: info}
+	ts := transaction{moneyChange: spendType}
+	return expenditure{info: info, transaction: ts}
 }
 
 const (
