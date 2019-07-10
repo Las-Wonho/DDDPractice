@@ -26,3 +26,9 @@
 - 출석 : 수업에 참가한다면 출석으로 인정이 됩니다. 출석을 어느정도 해야 졸업/진급할 수 있습니다.
 - 준비물 : 수업의 진행에 필요한 물건이며 학생이 준비해야 하는 물건이다. 수업전에 소지하고있어야 한다.
 - 교과서 : 수업마다 1개씩 있는 책이다. 교과목과 관련된 내용이 수록되어있다.
+
+## 모델링
+
+### 1번째 모델링
+
+![이미지](https://github.com/Las-Wonho/DDDPractice/blob/TWO_first_iteration/TWO/model/modeling_one.PNG?raw=true)
