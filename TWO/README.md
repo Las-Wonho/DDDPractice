@@ -34,18 +34,25 @@
 ![이미지](https://github.com/Las-Wonho/DDDPractice/blob/TWO_first_iteration/TWO/model/modeling_one.PNG?raw=true)
 
 > "학생 : 음... 학생과 전공이 너무 멀리 떨어져있군요."
+>
 > "학생 : 현재 너무 많은 그래프가 있어 바꾸기 힘드네요. 이러는것보다 조금 작게 시작해보면 어떨까요?"
+>
 > "라스 : 그럼 어디서부터 시작해보는게 좋을까요?"
+>
 > "학생 : 우리 어플리케이션은 수행평가를 도와주는 어플리케이션이니 학생과 수행평가의 상호작용을 먼저 생각해보면 어떨가요?"
 
 ![이미지](https://github.com/Las-Wonho/DDDPractice/blob/TWO_first_iteration/TWO/model/modeling_two.PNG?raw=true)
 
 > "학생 : 음... 수행평가는 수업에 종속되어 있습니다. 학생은 수업에 따라 수행평가가 바뀌죠."
+>
 > "라스 : 그럼 수업을 알고있다면 어떤 수행평가일지 알아낼 수 있는건가요?"
+>
 > "학생 : 그렇습니다. 그리고 그 수행평가를 수업을 담당하는 선생님이 평가를합니다. 학생이 수행한 내용을 선생님이 평가해서 `수행평가`라고 불립니다"
 
 ![이미지](https://github.com/Las-Wonho/DDDPractice/blob/TWO_first_iteration/TWO/model/modeling_three.PNG?raw=true)
 
 > "학생 : 어... 선생님이 학생을 직접 평가하지만 수행평가라는게 사라졌네요. 수업마다 1개 이상의 수행평가가 있어야합니다."
+>
 > "라스 : `수행`과 `평가`가 있는 행위가 수행평가가 아닌가요?"
+>
 > "학생 : 수행평가는 수업마다 학생을 평가하는 기준이라고 볼 수 있습니다."
